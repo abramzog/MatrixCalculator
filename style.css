@@ -61,6 +61,15 @@ hr {
     margin: auto;
 }
 
+.operation {
+    text-align: center;
+}
+
+option{
+    text-align: center;
+}
+
+
 .calc{
     margin: auto;
     text-align: center;

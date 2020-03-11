@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-5">
                 <form>
-                    <table class="matrixLeft">
+                    <table class="matrixLeft" id="leftMatrix">
                         <tr>
                             <td><input type="text" class="matrixData"></td>
                             <td><input type="text" class="matrixData"></td>
@@ -34,20 +34,19 @@
                 </form>
             </div>
             <div class="col-2">
-                <div>
-                    <form>
-                        <input list="mathOperation">
-                        <datalist id="mathOperation">
-                            <option value="Addition"></option>
-                            <option value="Subtraction"></option>
-                            <option value="Multiplication"></option>
-                        </datalist>
-                    </form>
+                <div class="operation">
+                    <select id="operation">
+                        <option>--SELECT--</option>
+                        <option>Addition</option>
+                        <option>Subtraction</option>
+                        <option>Multiplication</option>
+                    </select>
+            
                 </div>
             </div>
             <div class="col-5">
                 <form>
-                    <table class="matrixRight">
+                    <table class="matrixRight" id="rightMatrix">
                         <tr>
                             <td><input type="text" class="matrixData" ></td>
                             <td><input type="text" class="matrixData"></td>
@@ -69,7 +68,9 @@
         </div>
         <div class="row calc">
             <div class="col-12">
-                <input type="submit" value="Calculate">
+                <form id="calc">
+                    <input type="submit" value="Calculate">
+                </form>
             </div>
         </div>
         
