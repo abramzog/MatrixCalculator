@@ -45,19 +45,17 @@ div.siteTitle {
 
 hr {
     margin: 0;
+    margin-bottom: 40px;
 }
 
 .matrixData {
     width: 30px;
     height: 30px;
     padding: 5px;
+    text-align: center;
 }
 
-.matrixLeft {
-    margin: auto;
-}
-
-.matrixRight {
+.matrix {
     margin: auto;
 }
 
@@ -70,7 +68,8 @@ option{
 }
 
 
-.calc{
+.calc, .outcome{
     margin: auto;
     text-align: center;
 }
+
