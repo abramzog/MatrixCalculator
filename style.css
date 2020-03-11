@@ -1,0 +1,25 @@
+body {
+    display: block;
+    margin: 0;      
+}
+
+div.siteTitle {
+    display: block;
+    background-color: #4169E1;
+}
+
+.siteTitle h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+.matrixData {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
